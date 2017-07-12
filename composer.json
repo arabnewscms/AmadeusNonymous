@@ -19,7 +19,7 @@
 	},
 	"autoload":{
 		"psr-4":{
-			"AmadeusNonymous\\Amadeus":"src/"
+			"AmadeusNonymous\\Amadeus\\":"src/"
 		}
 	},
 	"minimum-stability": "dev",
