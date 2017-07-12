@@ -32,7 +32,7 @@ class Amadeus extends Controller
 
 	 public static function make(array $data,$service,$type='POST')
 	 {
- 		new Amadeus();
+ 		
 	 	$parameters  = self::$sandbox == true ?  self::$sandboxlink : self::$livelink;
 	 	$parameters .= '/'.$service;
 	 	$parameters .= '?apikey='.self::$apikey;

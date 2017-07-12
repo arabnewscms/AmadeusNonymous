@@ -22,6 +22,7 @@ class AmadeusProvider extends ServiceProvider
         app()->singleton('amadeus',function(){
             return new AmadeuNonymous\Amadeus\Amadeus();
         });
+       return new Amadeus();
     }
     /**
      * Register the application services.
